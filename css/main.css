@@ -1,0 +1,270 @@
+@import "./reset.css";
+
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+body {
+  font-family: "Poppins", sans-serif;
+  color: black;
+}
+
+/*header*/
+
+.header {
+  background-color: #f1f1f1;
+  padding-top: 46px;
+}
+
+.container {
+  max-width: 1230px;
+  padding: 0 30px;
+  margin: 0 auto;
+}
+
+.header-nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+.logo {
+  position: relative;
+  padding: 0 12px 3px 0;
+  line-height: 1;
+  font-weight: 700;
+  font-size: 32px;
+  color: black;
+}
+
+.logo::after {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  content: "";
+  display: block;
+  width: 8px;
+  height: 8px;
+  background-color: #fda300;
+  border-radius: 50%;
+}
+
+.nav-list {
+  display: flex;
+}
+.av-item {
+  padding-left: 15px;
+  font-size: 14px;
+  line-height: 21px;
+}
+.nav-lik {
+  color: black;
+}
+.nav-lik:hover {
+  color: #606060;
+}
+
+.header-infa {
+  display: flex;
+}
+.important-name {
+  width: 500px;
+  height: 132px;
+  margin-top: 281px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+}
+.imp-name {
+  font-size: 44px;
+  font-weight: 600;
+  line-height: 66px;
+  text-align: left;
+}
+.impa-foto-1 {
+  width: 494px;
+  height: 613px;
+  margin-top: 157px;
+  margin-left: 450px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.propert {
+  max-width: 1230px;
+  margin: auto;
+  height: 228px;
+  top: 860px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+  display: flex;
+  padding: 20px 20px 20px 20px;
+  justify-content: space-between;
+}
+.propert-1 {
+  width: 370px;
+  height: 228px;
+}
+
+.propert-imp {
+  width: 370px;
+  height: 36px;
+  margin-top: 15px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+}
+.propert-imp-text {
+  font-size: 25px;
+  font-weight: 600;
+  line-height: 36px;
+  text-align: left;
+}
+.propert-inf {
+  width: 370px;
+  height: 84px;
+  margin-top: 15px;
+  left: 215px;
+  gap: 0px;
+  opacity: 0px;
+}
+.propert-inf-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 28px;
+  text-align: left;
+}
+.portfolio {
+  width: 100%;
+  margin: auto;
+  height: 2200px;
+  margin-top: 40px;
+  left: -1px;
+  gap: 0px;
+  opacity: 0px;
+  background-color: #f1f1f1;
+}
+.portfolio-imp-text {
+  padding: 40px 0 80px 0;
+  width: 144px;
+  margin: auto;
+  height: 40.67px;
+  top: 1268px;
+  left: 728px;
+  gap: 0px;
+  opacity: 0px;
+}
+.portfolio-imp-text {
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: center;
+}
+.portfolio-img {
+  width: 930px;
+  margin: auto;
+  padding: 40px 0 80px 0;
+  height: 500px;
+  top: 1379px;
+  left: 335px;
+  gap: 0px;
+  opacity: 0px;
+}
+.portfolio-text {
+  padding: 120px 0 80px 0;
+  width: 300px;
+  margin: auto;
+  height: 27px;
+  top: 1919px;
+  left: 654.45px;
+  gap: 0px;
+  opacity: 0px;
+}
+.portfolio-text-1 {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+footer {
+  margin: auto;
+}
+.footer {
+  margin: auto;
+  width: 342.18px;
+  height: 430px;
+  top: 3440px;
+  left: 629px;
+  gap: 0px;
+  opacity: 0px;
+}
+.con-infa {
+  font-family: Poppins;
+  font-size: 34px;
+  font-weight: 600;
+  line-height: 51px;
+  text-align: center;
+  margin-top: 90px;
+}
+.con-infa-1 {
+  padding-top: 30px;
+  margin: auto;
+  width: 296px;
+  height: 54px;
+  top: 3531px;
+  left: 652px;
+  gap: 0px;
+  opacity: 0px;
+}
+.con-infa-1-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+.con-infa-button {
+  padding-top: 50px;
+  margin: auto;
+  width: 300px;
+  height: 42px;
+  top: 3625px;
+  left: 710px;
+  gap: 0px;
+  opacity: 0px;
+}
+.con-infa-button-1 {
+  width: 100%;
+  height: 42px;
+  background-color: black;
+  color: #f1f1f1;
+  border-radius: 50px;
+}
+.button-text {
+  font-family: Poppins;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 27px;
+  text-align: center;
+}
+
+.contact {
+  padding: 80px 20px 20px 20px;
+}
+.con-infa-noipma {
+  padding-top: 40px;
+  margin: auto;
+  width: 260px;
+  height: 42px;
+  top: 3828px;
+  left: 670px;
+  gap: 0px;
+  opacity: 0px;
+}
+.con-infa-noipma-text {
+  font-family: Poppins;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 21px;
+  text-align: center;
+}
